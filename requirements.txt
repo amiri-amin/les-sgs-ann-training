@@ -1,0 +1,8 @@
+# LES filtering + ANN training stack
+numpy>=1.21
+scipy>=1.7          # scipy.ndimage.correlate for LES filtering
+h5py>=3.0          # read the HDF5 LES flow field
+matplotlib>=3.5    # loss / error diagnostics
+scikit-learn>=1.0  # train_test_split, mean_squared_error
+tensorflow>=2.8    # Keras ANN (Model, Dense)
+jupyter>=1.0       # run the notebook
